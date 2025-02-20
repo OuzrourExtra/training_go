@@ -1,0 +1,2361 @@
+[
+  {
+    "id": 1,
+    "name": "Print 'Hello, World!'",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 2,
+    "name": "Declare variables of different types and print them",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 3,
+    "name": "Use constants and print them",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 4,
+    "name": "Create a function that returns a greeting message",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 5,
+    "name": "Swap two variables' values",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 6,
+    "name": "Convert types: float64 to int and vice versa",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 7,
+    "name": "Take user input and print it",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 8,
+    "name": "Write an if-else statement to check if a number is positive, negative, or zero",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 9,
+    "name": "Check if a number is even or odd",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 10,
+    "name": "Find the largest of three numbers",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 11,
+    "name": "Write a simple for loop that prints numbers 1 to 10",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 12,
+    "name": "Write a reverse loop that prints numbers 10 to 1",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 13,
+    "name": "Sum all numbers from 1 to 100 using a loop",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 14,
+    "name": "Print multiplication table for a given number",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 15,
+    "name": "Create a function that calculates the factorial of a number",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 16,
+    "name": "Use a switch statement to print days of the week",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 17,
+    "name": "Check if a year is a leap year",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 18,
+    "name": "Reverse a string",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 19,
+    "name": "Count the number of vowels in a string",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 20,
+    "name": "Check if a string is a palindrome",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 21,
+    "name": "Use arrays: Create an array and print its elements",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 22,
+    "name": "Find the largest element in an array",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 23,
+    "name": "Calculate the average of array elements",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 24,
+    "name": "Use slices: Create a slice and append elements to it",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 25,
+    "name": "Find the sum of elements in a slice",
+    "level": 1,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 26,
+    "name": "Remove duplicates from a slice",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 27,
+    "name": "Sort an array/slice in ascending order",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 28,
+    "name": "Merge two slices into one",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 29,
+    "name": "Find common elements between two slices",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 30,
+    "name": "Create a map and print key-value pairs",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 31,
+    "name": "Count word frequency in a string using a map",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 32,
+    "name": "Check if a key exists in a map",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 33,
+    "name": "Delete an element from a map",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 34,
+    "name": "Create a struct to represent a Person with fields name, age, email",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 35,
+    "name": "Write a method for the Person struct that prints a greeting",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 36,
+    "name": "Create a slice of structs and print them",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 37,
+    "name": "Use defer to print a message after a function completes",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 38,
+    "name": "Handle errors when converting a string to an integer",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 39,
+    "name": "Write a function that returns multiple values",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 40,
+    "name": "Implement a simple calculator",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 41,
+    "name": "Write a function that takes a variadic parameter",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 42,
+    "name": "Use pointers to modify a variable inside a function",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 43,
+    "name": "Swap two numbers using pointers",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 44,
+    "name": "Write a recursive function to calculate Fibonacci sequence",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 45,
+    "name": "Implement Bubble Sort on a slice",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 46,
+    "name": "Create a basic Animal interface and implement it in Dog and Cat structs",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 47,
+    "name": "Use type assertion to determine the dynamic type of an interface",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 48,
+    "name": "Write a program that reads a file and prints its contents",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 49,
+    "name": "Write to a file with some data",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 50,
+    "name": "Handle file errors when reading",
+    "level": 2,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 51,
+    "name": "Create a custom package and import it",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 52,
+    "name": "Generate random numbers and print them",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 53,
+    "name": "Simulate dice rolls using random number generation",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 54,
+    "name": "Create a simple command-line quiz",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 55,
+    "name": "Build a simple To-Do List",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 56,
+    "name": "Implement a basic Stack using slices",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 57,
+    "name": "Implement a Queue using slices",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 58,
+    "name": "Use Goroutines to print numbers concurrently",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 59,
+    "name": "Use channels to send and receive data",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 60,
+    "name": "Create a program that reads data from multiple channels",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 61,
+    "name": "Use select statement with multiple channels",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 62,
+    "name": "Implement a worker pool using Goroutines and channels",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 63,
+    "name": "Simulate bank transactions using Goroutines and mutexes",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 64,
+    "name": "Build a simple HTTP server that serves 'Hello, World!'",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 65,
+    "name": "Create an HTTP server with multiple endpoints",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 66,
+    "name": "Handle query parameters in a GET request",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 67,
+    "name": "Accept JSON input in a POST request",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 68,
+    "name": "Implement a simple REST API to manage users",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 69,
+    "name": "Create a basic contact form backend",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 70,
+    "name": "Store user data from an API into a JSON file",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 71,
+    "name": "Read data from an external API and display it",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 72,
+    "name": "Parse a JSON file and convert it into a struct",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 73,
+    "name": "Use time package to display the current date and time",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 74,
+    "name": "Create a simple countdown timer",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 75,
+    "name": "Measure execution time of a function",
+    "level": 3,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 76,
+    "name": "Create a simple CLI calculator",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 77,
+    "name": "Build a weather app using a public API",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 78,
+    "name": "Write a URL shortener",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 79,
+    "name": "Create a basic chat app using Goroutines and channels",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 80,
+    "name": "Build a simple markdown parser",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 81,
+    "name": "Develop a file uploader",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 82,
+    "name": "Build a basic notes app with CRUD operations",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 83,
+    "name": "Create a simple blog API",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 84,
+    "name": "Implement a simple authentication system",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 85,
+    "name": "Create a simple image gallery",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 86,
+    "name": "Build a URL checker that verifies if sites are online",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 87,
+    "name": "Implement a basic game (guess the number)",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 88,
+    "name": "Create a text case converter API",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 89,
+    "name": "Build a mini quiz game from CSV",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 90,
+    "name": "Create a REST API with token-based authentication",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 91,
+    "name": "Implement basic logging with levels",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 92,
+    "name": "Use Goroutines to perform multiple API calls",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 93,
+    "name": "Create a JSON-based configuration loader",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 94,
+    "name": "Build a simple web scraper",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 95,
+    "name": "Create a calculator API",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 96,
+    "name": "Implement a file encryption/decryption tool",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 97,
+    "name": "Build a REST API to manage books",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 98,
+    "name": "Create a URL health-checker",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 99,
+    "name": "Build a messaging app using WebSockets",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 100,
+    "name": "Create a simple task manager with web interface",
+    "level": 4,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 101,
+    "name": "Implement a Red-Black Tree data structure in Go with insert and delete operations, ensuring tree balance properties are maintained after each operation. Include unit tests for validation.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 102,
+    "name": "Build a Trie (Prefix Tree) supporting word insertion, search, and deletion. Add an autocomplete feature to suggest words based on a prefix.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 103,
+    "name": "Create a Graph class that supports both directed and undirected graphs. Implement BFS and DFS traversals, and ensure it handles disconnected graphs.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 104,
+    "name": "Develop a Min-Heap in Go. Implement heapify, insert, and extract-min operations. Use the heap to perform heap sort on an array of integers.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 105,
+    "name": "Implement a Disjoint Set Union (Union-Find) structure with path compression and union by rank optimizations. Use it to detect cycles in an undirected graph.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 106,
+    "name": "Create a Segment Tree that supports range sum queries and point updates. Include functions to build the tree, query sums, and perform updates efficiently.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 107,
+    "name": "Build an LRU Cache with O(1) get and put operations using a combination of a doubly-linked list and a hash map.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 108,
+    "name": "Develop a Suffix Array from a given string using an efficient algorithm like Manber-Myers, and implement pattern matching to find all occurrences of a substring.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 109,
+    "name": "Create a B-Tree with a configurable order. Implement insert, search, and delete operations, ensuring the tree remains balanced after modifications.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 110,
+    "name": "Implement a Bloom Filter in Go, capable of adding elements and checking for membership with a configurable false positive rate.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 111,
+    "name": "Build a Skip List supporting search, insert, and delete operations. Analyze the probabilistic balancing mechanism and its impact on performance.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 112,
+    "name": "Develop a KD-Tree for organizing points in a k-dimensional space. Implement nearest neighbor search and range queries.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 113,
+    "name": "Create a Hash Map using separate chaining for collision resolution. Include dynamic resizing to maintain performance as the load factor increases.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 114,
+    "name": "Implement a Priority Queue using a binary heap. Support both min-heap and max-heap configurations with insert and extract operations.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 115,
+    "name": "Develop a Rope data structure optimized for efficient string manipulation. Implement operations like insert, delete, and substring.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 116,
+    "name": "Build an AVL Tree with automatic rebalancing on insert and delete operations. Include in-order, pre-order, and post-order traversals.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 117,
+    "name": "Create a Circular Queue with fixed size, supporting enqueue, dequeue, and peek operations. Implement error handling for overflow and underflow.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 118,
+    "name": "Implement a Sparse Table for efficient range minimum queries on static arrays. Preprocess the array to enable O(1) query times.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 119,
+    "name": "Develop a Fenwick Tree (Binary Indexed Tree) to support efficient prefix sum queries and updates on an array.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 120,
+    "name": "Create a Deque (Double-Ended Queue) supporting insertion and deletion from both ends. Implement using a doubly-linked list.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 121,
+    "name": "Build a Graph and implement Dijkstra’s algorithm for finding the shortest path from a source node to all other nodes.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 122,
+    "name": "Extend a Trie to support word suggestion based on a given prefix, prioritizing more frequently used words.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 123,
+    "name": "Implement a Doubly Linked List with operations for insertion, deletion, and reversal. Support iteration in both directions.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 124,
+    "name": "Create a custom HashSet using open addressing for collision handling. Implement linear probing and dynamic resizing.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 125,
+    "name": "Develop a Graph and implement a cycle detection algorithm using DFS for both directed and undirected graphs.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 126,
+    "name": "Build a dynamic array (similar to Go’s slices) that automatically resizes as elements are added beyond its capacity.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 127,
+    "name": "Create a thread-safe Queue using mutexes and condition variables to ensure proper synchronization between producers and consumers.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 128,
+    "name": "Implement a Binary Search Tree with operations for insertion, deletion, and in-order traversal. Include a function to check tree balance.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 129,
+    "name": "Develop an Interval Tree to efficiently find overlapping intervals. Support insert, delete, and search operations.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 130,
+    "name": "Build a Quad Tree for efficient 2D spatial indexing. Implement point insertion and range queries.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 131,
+    "name": "Create a Patricia Trie optimized for efficient key-value storage. Implement search, insert, and delete operations.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 132,
+    "name": "Implement a Circular Linked List with support for insertion, deletion, and iteration over elements in a circular manner.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 133,
+    "name": "Build a Graph supporting Kruskal's algorithm to find the Minimum Spanning Tree (MST) using Union-Find for cycle detection.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 134,
+    "name": "Develop a Graph implementing Prim’s algorithm to find the MST starting from a given node.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 135,
+    "name": "Create a Disjoint Set with Union by Rank and Path Compression optimizations. Use it to solve the connected components problem.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 136,
+    "name": "Implement a Graph with A* pathfinding algorithm, using a heuristic function to guide the search towards the goal.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 137,
+    "name": "Build a Graph and implement Tarjan’s algorithm to find all Strongly Connected Components (SCCs) in a directed graph.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 138,
+    "name": "Develop a Graph and implement Kahn’s algorithm for topological sorting of Directed Acyclic Graphs (DAGs).",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 139,
+    "name": "Create a Suffix Tree for fast pattern matching in strings, supporting operations like substring search and longest repeated substring.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 140,
+    "name": "Implement a Radix Tree (Compact Prefix Tree) optimized for efficient storage and retrieval of string keys.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 141,
+    "name": "Design and implement a Ternary Search Tree supporting insert, delete, and search operations with efficient memory usage.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 142,
+    "name": "Create a Fibonacci Heap with operations for insert, extract-min, and decrease-key, and use it in Dijkstra's algorithm.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 143,
+    "name": "Implement a Van Emde Boas Tree to support O(log log U) time complexity for insert, delete, and successor queries.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 144,
+    "name": "Build a Splay Tree with self-adjusting properties on access, and compare its performance with AVL and Red-Black Trees.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 145,
+    "name": "Develop a Cartesian Tree and use it for range minimum queries and binary heap applications.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 146,
+    "name": "Implement a Treap (randomized binary search tree) ensuring expected logarithmic time for basic operations.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 147,
+    "name": "Create a Link-Cut Tree to support dynamic tree queries like path minimum or maximum in logarithmic time.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 148,
+    "name": "Develop a K-Dimensional Tree for efficient k-nearest neighbors search in high-dimensional data.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 149,
+    "name": "Build a Bloomier Filter to support approximate associative arrays with probabilistic guarantees.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 150,
+    "name": "Implement a Generalized Suffix Tree for multiple string pattern matching.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 151,
+    "name": "Create a Persistent Segment Tree supporting versioned range queries and updates.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 152,
+    "name": "Develop a Rope Tree with efficient split and concatenate operations for large strings.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 153,
+    "name": "Build a Wavelet Tree for efficient range queries and frequency counting in arrays.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 154,
+    "name": "Implement a Heavy-Light Decomposition to answer path queries on trees efficiently.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 155,
+    "name": "Create a Binary Space Partitioning (BSP) Tree for efficient rendering in 3D graphics.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 156,
+    "name": "Develop a Range Tree for multidimensional range searching.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 157,
+    "name": "Implement a Quad KD-Tree hybrid for optimized spatial partitioning in 3D space.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 158,
+    "name": "Build an Order Statistic Tree to find the k-th smallest/largest element in a set.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 159,
+    "name": "Create an Interval Skip List supporting efficient interval queries.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 160,
+    "name": "Implement a Dynamic AABB Tree for collision detection in physics engines.",
+    "level": 5,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 161,
+    "name": "Optimize Floyd-Warshall algorithm using path reconstruction and space optimizations.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 162,
+    "name": "Implement the Convex Hull Trick for optimizing linear DP problems.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 163,
+    "name": "Develop a Square Root Decomposition technique for range queries and updates.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 164,
+    "name": "Optimize the Longest Palindromic Substring problem using Manacher’s algorithm.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 165,
+    "name": "Implement Johnson’s algorithm for all-pairs shortest paths in sparse graphs.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 166,
+    "name": "Develop a Suffix Automaton for efficient substring checks and pattern matching.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 167,
+    "name": "Optimize matrix exponentiation to compute nth terms in linear recurrences.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 168,
+    "name": "Implement the Hopcroft-Karp algorithm for maximum bipartite matching.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 169,
+    "name": "Develop the Push-Relabel algorithm for maximum flow problems.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 170,
+    "name": "Optimize Prim’s algorithm using a Fibonacci Heap for dense graphs.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 171,
+    "name": "Implement the Hungarian algorithm for solving the assignment problem.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 172,
+    "name": "Develop a Centroid Decomposition for solving path queries on trees.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 173,
+    "name": "Optimize 2D range queries using Segment Trees with lazy propagation.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 174,
+    "name": "Implement the Dancing Links algorithm for solving exact cover problems.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 175,
+    "name": "Develop a Sparse Table for efficient GCD queries on static arrays.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 176,
+    "name": "Optimize Backtracking algorithms using Forward Checking and Constraint Propagation.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 177,
+    "name": "Implement the Mo’s algorithm for efficient offline range queries.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 178,
+    "name": "Develop a Z-Algorithm for pattern matching in linear time.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 179,
+    "name": "Optimize Discrete Fourier Transform using Fast Fourier Transform (FFT).",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 180,
+    "name": "Implement the Karatsuba algorithm for fast multiplication of large integers.",
+    "level": 6,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 181,
+    "name": "Build a concurrent web server handling thousands of connections using Goroutines.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 182,
+    "name": "Develop a parallel MapReduce framework with custom mappers and reducers.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 183,
+    "name": "Implement a concurrent B-Tree supporting thread-safe operations.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 184,
+    "name": "Create a real-time multiplayer game server with Goroutines managing game logic.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 185,
+    "name": "Build a concurrent pipeline for processing large datasets with backpressure handling.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 186,
+    "name": "Develop a thread-safe graph library supporting concurrent traversals.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 187,
+    "name": "Implement a concurrent priority queue optimized for high contention.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 188,
+    "name": "Create a reactive streams library using Goroutines and channels.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 189,
+    "name": "Build a parallelized genetic algorithm for optimization problems.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 190,
+    "name": "Develop a concurrent task scheduler supporting dependencies and priorities.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 191,
+    "name": "Implement a thread-safe publish-subscribe system with topic-based filtering.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 192,
+    "name": "Create a concurrent event-driven architecture for a chat application.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 193,
+    "name": "Build a real-time collaborative whiteboard with WebSockets and Goroutines.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 194,
+    "name": "Develop a parallel simulation of fluid dynamics using Goroutines.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 195,
+    "name": "Implement a concurrent in-memory database with transaction support.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 196,
+    "name": "Create a parallel graph traversal for large-scale social networks.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 197,
+    "name": "Build a concurrent image processing library supporting filters and transformations.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 198,
+    "name": "Develop a multi-threaded logging system with configurable backends.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 199,
+    "name": "Implement a concurrent spell checker using trie data structures.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 200,
+    "name": "Create a parallelized ray tracing engine for 3D rendering.",
+    "level": 7,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 201,
+    "name": "Design a distributed system implementing Paxos consensus algorithm.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 202,
+    "name": "Build a distributed cache with eventual consistency and sharding.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 203,
+    "name": "Implement a scalable distributed log system similar to Apache Kafka.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 204,
+    "name": "Create a distributed file synchronization tool supporting conflict resolution.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 205,
+    "name": "Develop a distributed key-value store with consistent hashing.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 206,
+    "name": "Implement a distributed system monitoring tool with real-time alerts.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 207,
+    "name": "Build a distributed load balancer with health checks and failover.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 208,
+    "name": "Develop a distributed graph processing system for large-scale data.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 209,
+    "name": "Create a distributed job queue with worker nodes and retries.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 210,
+    "name": "Implement a distributed voting system with Byzantine fault tolerance.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 211,
+    "name": "Build a distributed ledger system similar to blockchain.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 212,
+    "name": "Develop a distributed event sourcing framework for microservices.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 213,
+    "name": "Create a distributed rate limiter using token bucket algorithm.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 214,
+    "name": "Implement a distributed search engine indexing millions of documents.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 215,
+    "name": "Build a distributed notification service with push and pull models.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 216,
+    "name": "Develop a distributed lock manager for resource coordination.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 217,
+    "name": "Create a distributed tracing system for microservices architectures.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 218,
+    "name": "Implement a distributed database supporting ACID transactions.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 219,
+    "name": "Build a distributed AI model training system using parameter servers.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 220,
+    "name": "Develop a distributed content delivery network with edge caching.",
+    "level": 8,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 221,
+    "name": "Implement a zero-knowledge proof protocol for secure authentication.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 222,
+    "name": "Develop a secure multiparty computation protocol for data privacy.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 223,
+    "name": "Create a homomorphic encryption library supporting basic arithmetic.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 224,
+    "name": "Build a secure voting system using blind signatures.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 225,
+    "name": "Implement post-quantum cryptographic algorithms for secure messaging.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 226,
+    "name": "Develop a secure enclave system for trusted execution environments.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 227,
+    "name": "Create a tool for detecting side-channel attacks in software.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 228,
+    "name": "Build a secure file system with end-to-end encryption.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 229,
+    "name": "Implement a cryptographic accumulator for set membership proofs.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 230,
+    "name": "Develop a system for secure key management and distribution.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 231,
+    "name": "Create a blockchain smart contract platform with sandboxing.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 232,
+    "name": "Build a passwordless authentication system using public keys.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 233,
+    "name": "Implement secure bootstrapping for IoT devices.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 234,
+    "name": "Develop a tool for automated security auditing of smart contracts.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 235,
+    "name": "Create a privacy-preserving data sharing platform using secure enclaves.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 236,
+    "name": "Build a secure chat application with forward secrecy.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 237,
+    "name": "Implement a protocol for secure multi-party key exchange.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 238,
+    "name": "Develop a tool for analyzing cryptographic protocol weaknesses.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 239,
+    "name": "Create a platform for secure document signing and verification.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 240,
+    "name": "Build a zero-trust security framework for microservices.",
+    "level": 9,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 241,
+    "name": "Optimize a real-time stock trading platform for sub-millisecond latency.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 242,
+    "name": "Build a high-frequency trading algorithm with minimal network overhead.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 243,
+    "name": "Implement a GPU-accelerated machine learning inference engine.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 244,
+    "name": "Develop a high-performance web server handling millions of requests/sec.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 245,
+    "name": "Create a low-latency video streaming service with adaptive bitrate.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 246,
+    "name": "Build a real-time collaborative editing tool with conflict resolution.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 247,
+    "name": "Implement a scalable data analytics platform processing petabytes of data.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 248,
+    "name": "Develop an ultra-low-latency messaging system for financial data.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 249,
+    "name": "Optimize a search engine indexer for rapid document ingestion.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 250,
+    "name": "Build a high-performance game physics engine with GPU acceleration.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 251,
+    "name": "Create a distributed in-memory database optimized for speed.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 252,
+    "name": "Implement a low-latency audio processing pipeline for live concerts.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 253,
+    "name": "Develop a scalable recommendation engine handling billions of users.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 254,
+    "name": "Build a real-time fraud detection system using stream processing.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 255,
+    "name": "Optimize a blockchain network for high transaction throughput.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 256,
+    "name": "Create a high-performance IoT platform supporting millions of devices.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 257,
+    "name": "Develop a low-latency multiplayer gaming server architecture.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 258,
+    "name": "Build a scalable image recognition system using deep learning.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 259,
+    "name": "Implement a high-speed video transcoding service with cloud scaling.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 260,
+    "name": "Optimize a 3D rendering engine for real-time virtual reality.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 261,
+    "name": "Develop a high-frequency trading backtesting engine with low-latency data processing.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 262,
+    "name": "Create a real-time collaborative 3D modeling tool optimized for VR.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 263,
+    "name": "Implement a distributed GPU-based rendering farm for complex scenes.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 264,
+    "name": "Optimize a machine learning training pipeline for multi-GPU environments.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 265,
+    "name": "Build a low-latency audio/video conferencing system supporting thousands of users.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 266,
+    "name": "Develop a high-performance scientific simulation engine for physics-based modeling.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 267,
+    "name": "Implement a real-time network packet analyzer optimized for high throughput.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 268,
+    "name": "Create a scalable, high-performance financial risk analysis platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 269,
+    "name": "Optimize a deep learning inference engine for edge devices.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 270,
+    "name": "Develop a high-throughput data ingestion system for big data analytics.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 271,
+    "name": "Build a real-time traffic management system with live updates.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 272,
+    "name": "Create a distributed AI model serving platform with load balancing.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 273,
+    "name": "Implement a highly efficient time-series database optimized for IoT.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 274,
+    "name": "Develop a low-latency voice recognition system for real-time applications.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 275,
+    "name": "Build a high-speed log processing system with pattern detection.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 276,
+    "name": "Create an optimized simulation engine for large-scale crowd dynamics.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 277,
+    "name": "Develop a low-latency algorithm for autonomous vehicle navigation.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 278,
+    "name": "Implement a scalable event-driven architecture for real-time data streams.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 279,
+    "name": "Optimize a large-scale recommendation engine for e-commerce platforms.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 280,
+    "name": "Build a real-time sports analytics platform processing live game data.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 281,
+    "name": "Develop a high-performance parallelized image recognition system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 282,
+    "name": "Implement a distributed ledger optimized for micropayments.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 283,
+    "name": "Create a low-latency distributed messaging system for IoT devices.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 284,
+    "name": "Develop a high-speed genomic data analysis pipeline.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 285,
+    "name": "Build a real-time fraud detection system for online transactions.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 286,
+    "name": "Implement a scalable simulation environment for disaster response.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 287,
+    "name": "Optimize a serverless platform for low-latency microservices.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 288,
+    "name": "Develop a high-performance augmented reality rendering engine.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 289,
+    "name": "Create a distributed system for real-time multiplayer gaming.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 290,
+    "name": "Implement a high-speed financial data feed aggregator.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 291,
+    "name": "Build a scalable virtual desktop infrastructure platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 292,
+    "name": "Develop a low-latency market data distribution system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 293,
+    "name": "Create a high-throughput distributed graph database.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 294,
+    "name": "Implement an optimized neural network for real-time object detection.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 295,
+    "name": "Build a real-time environmental monitoring system for smart cities.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 296,
+    "name": "Develop a scalable video streaming platform with adaptive bitrate.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 297,
+    "name": "Create an optimized engine for large-scale social network analysis.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 298,
+    "name": "Implement a low-latency, high-availability chat platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 299,
+    "name": "Build a distributed platform for real-time collaborative editing.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 300,
+    "name": "Develop a high-speed geospatial data processing system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 301,
+    "name": "Create a low-latency API gateway for microservices architectures.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 302,
+    "name": "Implement a scalable high-performance time-series analytics engine.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 303,
+    "name": "Build a real-time logistics tracking system with live updates.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 304,
+    "name": "Develop a high-speed event sourcing system for financial applications.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 305,
+    "name": "Create an optimized recommendation system for large-scale video platforms.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 306,
+    "name": "Implement a distributed build system optimized for minimal latency.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 307,
+    "name": "Build a low-latency, high-throughput stock trading system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 308,
+    "name": "Develop a scalable real-time sensor data aggregation platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 309,
+    "name": "Create a high-performance speech-to-text engine for live transcription.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 310,
+    "name": "Implement a distributed real-time bidding system for advertising.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 311,
+    "name": "Build a high-speed distributed file system optimized for big data.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 312,
+    "name": "Develop a scalable real-time health monitoring system for wearable devices.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 313,
+    "name": "Build a high-performance distributed AI training framework.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 314,
+    "name": "Create a low-latency real-time multiplayer VR gaming platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 315,
+    "name": "Implement a scalable recommendation engine using deep learning.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 316,
+    "name": "Develop a real-time supply chain management system with live tracking.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 317,
+    "name": "Build an ultra-fast blockchain network optimized for microtransactions.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 318,
+    "name": "Create a real-time language translation engine with voice support.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 319,
+    "name": "Develop a high-speed distributed ledger system for secure transactions.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 320,
+    "name": "Implement a low-latency live video broadcasting platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 321,
+    "name": "Build a high-performance distributed search engine for large datasets.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 322,
+    "name": "Create a real-time air traffic control simulation system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 323,
+    "name": "Develop an optimized real-time 3D rendering engine for AR applications.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 324,
+    "name": "Build a low-latency distributed transaction processing system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 325,
+    "name": "Implement a scalable real-time weather prediction system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 326,
+    "name": "Create a high-speed distributed event processing platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 327,
+    "name": "Develop a real-time data visualization tool for big data analytics.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 328,
+    "name": "Build a high-performance distributed gaming backend architecture.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 329,
+    "name": "Implement a scalable real-time disaster alert and response system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 330,
+    "name": "Create a low-latency AI-powered video editing platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 331,
+    "name": "Develop a high-speed real-time stock price prediction engine.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 332,
+    "name": "Build an ultra-fast content delivery network for global streaming.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 333,
+    "name": "Implement a real-time fraud detection system using machine learning.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 334,
+    "name": "Create a low-latency distributed AI inference engine.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 335,
+    "name": "Develop a high-speed autonomous drone control system.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 336,
+    "name": "Build a real-time collaborative document editing platform.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  },
+  {
+    "id": 337,
+    "name": "Implement a distributed data pipeline for real-time analytics.",
+    "level": 10,
+    "completed": false,
+    "published": false
+  }
+]

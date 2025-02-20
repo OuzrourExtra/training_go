@@ -1,0 +1,85 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golang Challenges To-Do List</title>
+    <link href="./css/output.css" rel="stylesheet" />
+</head>
+<body class="bg-gray-100">
+    <div class=" mx-auto p-4">
+        <h1 class="text-3xl font-bold text-center text-teal-600 mb-6">Golang Challenges To-Do List</h1>
+
+        <div class="flex justify-center items-center  mb-4 space-x-4">
+            <label for="levelFilter" class="text-lg text-red-800 font-bold">Filter by Difficulty:</label>
+            <select id="levelFilter" class="select select-bordered">
+                <option value="0" <%=levelFilter===0 ? 'selected' : '' %>>All Levels</option>
+                <option value="1" <%=levelFilter===1 ? 'selected' : '' %>>Level 1 (Beginner)</option>
+                <option value="2" <%=levelFilter===2 ? 'selected' : '' %>>Level 2 (Intermediate)</option>
+                <option value="3" <%=levelFilter===3 ? 'selected' : '' %>>Level 3 (Practical)</option>
+                <option value="4" <%=levelFilter===4 ? 'selected' : '' %>>Level 4 (Novice)</option>
+                <option value="5" <%=levelFilter===5 ? 'selected' : '' %>>Level 5 (Advanced Data Structures)</option>
+                <option value="6" <%=levelFilter===6 ? 'selected' : '' %>>Level 6 (Algorithm Optimization)</option>
+                <option value="7" <%=levelFilter===7 ? 'selected' : '' %>>Level 7 (Concurrency & Parallelism)</option>
+                <option value="8" <%=levelFilter===8 ? 'selected' : '' %>>Level 8 (Distributed Systems)</option>
+                <option value="9" <%=levelFilter===9 ? 'selected' : '' %>>Level 9 (Security & Cryptography)</option>
+                <option value="10" <%=levelFilter===10 ? 'selected' : '' %>>Level 10 (Extreme Performance)</option>
+            </select>
+        </div>
+
+        <ul id="challengeList" class="space-y-3 grid grid-cols-4 gap-2">
+            <% challenges.forEach((challenge)=> { %>
+                <li
+                    class="flex card col-span-1 justify-between text-center items-center px-3 py-1 font-bold text-xs border rounded-lg bg-gradient-to-r <%= challenge.completed ? 'from-teal-400' : 'from-white' %> <%= challenge.published ? 'to-amber-400' : 'to-white' %> shadow">
+                    <div class="flex flex-col justify-end items-center w-full">
+                        <span class="text-sm text-gray-500">#<%= challenge.id %></span>
+                        <span
+                            class="<%= challenge.completed ? 'line-through text-teal-900 font-bold' : 'text-black' %>">
+                            <%= challenge.name %> (Level <%= challenge.level %>)
+                        </span>
+                        <div class="flex space-x-2 mt-2">
+                            <button
+                                class="btn btn-sm <%= challenge.completed ? 'btn-secondary' : 'btn-success' %> toggle-complete"
+                                data-id="<%= challenge.id %>">
+                                <%= challenge.completed ? 'Undo' : 'Complete' %>
+                            </button>
+                            <button
+                                class="btn btn-sm <%= challenge.published ? 'btn-primary' : 'btn-warning' %> toggle-published"
+                                data-id="<%= challenge.id %>">
+                                <%= challenge.published ? 'Unpublish' : 'Publish' %>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+                <% }) %>
+        </ul>
+    </div>
+
+    <script>
+        // Filter challenges by difficulty level
+        document.getElementById('levelFilter').addEventListener('change', (e) => {
+            const selectedLevel = e.target.value;
+            window.location.href = selectedLevel == 0 ? '/' : `/?level=${selectedLevel}`;
+        });
+
+        // Toggle challenge completion
+        document.querySelectorAll('.toggle-complete').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const id = e.target.dataset.id;
+                fetch(`/toggle/${id}`, { method: 'POST' }).then(() => window.location.reload());
+            });
+        });
+
+        // Toggle challenge published status
+        document.querySelectorAll('.toggle-published').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const id = e.target.dataset.id;
+                fetch(`/toggle-published/${id}`, { method: 'POST' }).then(() => window.location.reload());
+            });
+        });
+    </script>
+</body>
+
+</html>
