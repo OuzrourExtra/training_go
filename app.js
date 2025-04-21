@@ -8,38 +8,85 @@ const app = express();
 const PORT = 666;
 const DATA_FILE = path.join(__dirname, 'data', 'challenges.json');
 
-// Set up view engine and middleware
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 app.use(bodyParser.json());
 
-// Load challenges from JSON file
+// Charger les challenges depuis le fichier
 const loadChallenges = () => {
     if (!fs.existsSync(DATA_FILE)) return [];
     const data = fs.readFileSync(DATA_FILE, 'utf8');
-    return JSON.parse(data);
+    const parsed = JSON.parse(data);
+    return Array.isArray(parsed) ? parsed : [];
 };
+const tagLevels = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'tagsLevels.json'), 'utf8'));
 
-// Save challenges to JSON file
+// Sauvegarder les challenges
 const saveChallenges = (challenges) => {
     fs.writeFileSync(DATA_FILE, JSON.stringify(challenges, null, 2));
 };
+const levelColors = {
+    1: "text-green-700",    // 🟢
+    2: "text-blue-700",     // 🔵
+    3: "text-orange-600",   // 🔶
+    4: "text-red-700",      // 🔴
+    5: "text-purple-700",   // 🐘
+    6: "text-lime-800",    // 🧱
+    7: "text-cyan-700",     // 🌐
+    8: "text-rose-700",     // 🛡️
+    9: "text-yellow-700",   // 🚀
+    10: "text-fuchsia-700"  ,  // 🧠
+    11: "text-rose-700"    // 💰
+};
+const levelTagColors = {
+    1: "bg-green-100 text-green-900",
+    2: "bg-blue-100 text-blue-900",
+    3: "bg-orange-100 text-orange-900",
+    4: "bg-red-100 text-red-900",
+    5: "bg-purple-100 text-purple-900",
+    6: "bg-lime-100 text-lime-900",
+    7: "bg-cyan-100 text-cyan-900",
+    8: "bg-rose-100 text-rose-900",
+    9: "bg-yellow-100 text-yellow-900",
+    10: "bg-fuchsia-100 text-fuchsia-900",
+    11: "bg-rose-100 text-rose-900"
 
-// Route to render index.ejs with challenges
+};
+// Titre des niveaux
+const levelTitles = {
+    1: "🟢 LEVEL 1 – Fundamentals: Language & Tooling",
+    2: "🔵 LEVEL 2 – Concurrency + Idioms",
+    3: "🔶 LEVEL 3 – Advanced Craftsmanship",
+    4: "🔴 LEVEL 4 – Web APIs & Fullstack",
+    5: "🐘 LEVEL 5 – PostgreSQL & ORM",
+    6: "🧱 LEVEL 6 – Clean Architecture",
+    7: "🌐 LEVEL 7 – Distributed Systems",
+    8: "🛡️ LEVEL 8 – Security",
+    9: "🚀 LEVEL 9 – Deployment & DevOps",
+    10: "🧠 LEVEL 10 – Algorithms & CS",
+    11: "💰 LEVEL 11 – Cryptocurrency Programming"
+
+};
+
+// Page principale : 20 challenges max
 app.get('/', (req, res) => {
     const challenges = loadChallenges();
-    const levelFilter = parseInt(req.query.level) || 0;
-    const filteredChallenges = levelFilter
-        ? challenges.filter(c => c.level === levelFilter)
-        : challenges;
-    res.render('index', { challenges: filteredChallenges, levelFilter });
+    const sorted = challenges.sort((a, b) => a.id - b.id);
+    res.render('index', {
+        challenges: sorted.slice(0, 300),
+        levelTitles,
+        levelColors,
+        levelTagColors,
+        tagLevels
+
+    });
+
 });
 
-// Route to toggle challenge completion
+// Marquer comme terminé
 app.post('/toggle/:id', (req, res) => {
     const challenges = loadChallenges();
-    const id = parseInt(req.params.id);
-    const challenge = challenges.find(c => c.id === id);
+    const challenge = challenges.find(c => c.id === parseInt(req.params.id));
     if (challenge) {
         challenge.completed = !challenge.completed;
         saveChallenges(challenges);
@@ -47,11 +94,10 @@ app.post('/toggle/:id', (req, res) => {
     res.sendStatus(200);
 });
 
-// Route to toggle challenge published status
+// Publier ou dépublier
 app.post('/toggle-published/:id', (req, res) => {
     const challenges = loadChallenges();
-    const id = parseInt(req.params.id);
-    const challenge = challenges.find(c => c.id === id);
+    const challenge = challenges.find(c => c.id === parseInt(req.params.id));
     if (challenge) {
         challenge.published = !challenge.published;
         saveChallenges(challenges);
@@ -60,5 +106,5 @@ app.post('/toggle-published/:id', (req, res) => {
 });
 
 app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
+    console.log(`✅ Server running on http://localhost:${PORT}`);
 });
